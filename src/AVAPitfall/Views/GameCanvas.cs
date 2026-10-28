@@ -9,8 +9,9 @@ using AVAPitfall.Engine;
 namespace AVAPitfall.Views;
 
 /// <summary>
-/// The screen: a fixed 1024×768 picture scaled to fit the window: the well in the middle, the score and the
-/// pieces' tally on the left, the next piece on the right. Runs the engine from a 60 Hz timer.
+/// The screen: a fixed 1024×768 picture scaled to fit the window: one screen of jungle with the tunnel below it,
+/// the score, the clock, the treasures and the lives along the top, and a map of the jungle along the bottom. Runs
+/// the engine from a 60 Hz timer.
 /// </summary>
 public sealed partial class GameCanvas : Control
 {
